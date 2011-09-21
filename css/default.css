@@ -2,8 +2,8 @@
 	outline: 2px solid red;
 }
 #searchBox {
-	width: 145px;
-	border: 0px;
+	width: auto;
+	border: 0;
 }
 #centeredlogo {
 	background-image: url('../img/logo.png');
@@ -38,7 +38,7 @@
 }
 #centeredmenu ul li a {
 	display: block;
-	margin: 0 0 0 0px;
+	margin: 0 0 0 0;
 	padding: 2px;
 	background: #ddd;
 	color: #000;
@@ -134,4 +134,14 @@ aside.grid_4 {
 	margin-left: 0;
 	margin-right: 10px;
 	width: 180px;
+}
+
+.asideBlock {
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+label {
+    font-size: 19px;
+    font-weight: bold;
 }
